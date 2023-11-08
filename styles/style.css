@@ -242,46 +242,56 @@ h1,h2,h3,h4,h5,h6,a,p,ul,li,img{
       .feature p{
         color: rgb(114, 106, 109);
       }
+      .content-2{
+        width: 900px;
+      }
       .box-2{
           position: relative;
-          top: 150px;
-          left: 220px;
+          top: 250px;
+          left: 100px;
           float: left;
           height: 300px;
+          
+       
+          
       }
+      
       .boxex-2 i{
+        position: absolute;
         float: left;
         font-size: 50px;
-        position: absolute;
         margin-top: 20px;
         color: rgb(43, 140, 136);
       }
       .lorem-2{
-    
+      
        margin-left: 80px;
       }
      .tablet-img{
         float: left;
         position: relative;
-        left: 620px;
-        bottom: 400px;
+        left: 780px;
+        bottom: 370px;
         
      } 
      .tablet-img img{
-        height: 520px;
-        width: 500px;
+        height: 370px;
+        width: 450px;
         z-index: 1;
+        position: absolute;
+    
      }
      .tab-1{
         float: left;
-        position: absolute;
-        left: 550px;
-        top: 100px;
-     }
+        position: relative;
+        left: 800px;
+        bottom: 220px;
+    }
      .tab-1 img{
-        height: 320px;
-        width: 500px;
+        height: 270px;
+        width: 330px;
         z-index: 5;
+        position: absolute;
      }
  /* amazing features section end */
 
@@ -323,3 +333,121 @@ h1,h2,h3,h4,h5,h6,a,p,ul,li,img{
         width: 100%;
     }
 /* badge section end */
+
+  
+/* powerful skills section start */
+        #powerful-skill{
+            height: 600px;
+            background-color: rgb(54, 54, 54);
+        }
+        .skills{
+             top: 2400px;
+        }
+        .skills h2{
+             color: white;
+        }
+         .box-3{
+            position: relative;
+            float: left;
+            display: flex;
+            top: 250px;
+             right: 100px;
+            gap: 30px;
+            
+            
+         }
+       
+         .skill{
+            background-color: transparent;
+            border: 4px solid green;
+         }
+         .skill h2{
+            color: white;
+            position: absolute;
+            left: 29px;
+            top: 35px;
+            
+         }
+        
+        
+/* powerfull skills section end */
+
+/* simple work section start */
+     #simple-work{
+        height: 800px;
+     }
+     .works{
+        top: 3000px;
+     }
+    .image-parants{
+        position: relative;
+        top: 130px;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+    .image-box img{
+        height: 250px;
+        width: 220px;
+    }
+    .button-2{
+        top: 180px;
+        position: relative;
+        width: 800px;
+        padding: 13px 20px;
+        background-color: rgb(4, 156, 139);
+        left: 265px;
+    }
+    .button-2 a{
+        text-decoration: none;   
+        color: white;
+        position: absolute;
+        left: 325px;
+        bottom: 5px;
+        
+        
+    }
+/* simple work section end */
+
+/* company fact section start */
+     #company-fact{
+        height: 300px;
+        background-color: rgb(49, 56,56 );
+     }      
+     .fact-box{
+        position: relative;
+        display: flex;
+        top: 180px;
+        gap: 180px;
+        left: 215px;
+        float: left;
+     }
+     .fact{
+        top: 3830px;
+        left: 530px;
+     }
+     .fact-2 i{
+         font-size: 10px;
+         position: absolute;
+         top: 30px;
+         color: greenyellow;     
+     }
+   
+     .fact-2 span{
+            
+           font-size: 54px;
+           font-weight: 200;
+           color: white;
+                      
+     }
+     
+/* company fact section end */
+
+
+
+
+
+
+
+
+
+
