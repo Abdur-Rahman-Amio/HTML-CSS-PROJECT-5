@@ -377,7 +377,7 @@ h1,h2,h3,h4,h5,h6,a,p,ul,li,img{
         height: 800px;
      }
      .works{
-        top: 3000px;
+        top: 2776px;
      }
     .image-parants{
         position: relative;
@@ -623,15 +623,333 @@ margin-left: 180px;
 .lorem-line-2{
     margin-left: 190px;
 }
+.slide-icon-3{
+    position: relative;
+    top: 210px;
+    float: left;
+    right: 450px;
+    background-color: aliceblue;
+    padding: 6px 6px;
+    margin-right: 1px;
+}
+.slide-icon-3:hover{
+    color: aliceblue;
+    background-color: rgb(13, 13, 14);
+    padding: 6px 6px; 
+}
+.slide-icon-4{
+    position: relative;
+    top: 210px;
+    float: left;
+    right: 450px;
+    background-color: aliceblue;
+    padding: 6px 6px;
+}
+.slide-icon-4:hover{
+    color: aliceblue;
+    background-color: rgb(13, 13, 14);
+    padding: 6px 6px; 
+}
 /*
 team member section end */
 
+/* logo-hover section start */
+     #logo-hover{
+        background-color:rgb(58, 54, 59);
+        height: 270px;
+     }
+     .slide-icon-5{
+        position: relative;
+        top: 110px;
+        float: left;
+        left: 90px;
+        background-color: aliceblue;
+        padding: 4px 6px;
+     }
+     .slide-icon-5:hover{
+        color: aliceblue;
+        background-color:rgb(0, 174, 255);
+        padding: 4px 6px; 
+     }
+     .slide-icon-6{
+        position: relative;
+        top: 110px;
+        float: right;
+        right: 105px;
+        background-color: aliceblue;
+        padding: 4px 6px;
+     }
+     .slide-icon-6:hover{
+        color: aliceblue;
+        background-color:rgb(0, 174, 255);
+        padding:4px 6px
+     }
+     .logo-box{
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+         float: left;
+         gap: 30px;
+     }
+     .logo-boxes{
+          position: relative;
+          left: 116px;
+          top: 40px;
+          height: 180px;
+          width: 240px;
 
+          background-color: rgba(14, 11, 7, 0.034);
+     }
+     .logo-boxes:hover{
+        background-color: rgba(14, 11, 7, 0.384);
+     }
+     
+     .logo-boxes i{
+        position: absolute;
+        top: 60px;
+        left: 80px;
+        color:white;
+        font-size: 60px;
+        
+     }
+     .logo-box-text{
+        position: absolute;
+        top: 100px;
+        float: left;
+        width: 100%;
+        left: 60px;
+     }
+     .logo-box-text h2{
+        color: azure;
+        font-size: 25px;
+     }
+/* logo-hover section end */
 
+/* cheap price section start */
+       #cheap-price{
+        height: 750px;
+        background-color: rgb(249, 249,249);
+       } 
+       .cheap{
+        top: 5250px;
+       }
+      .prices{
+        display: grid;
+        float: left;
+        grid-template-columns: repeat(4,1fr);
+        position: relative;
+        top: 200px;
+        left: 220px;
+        gap: 10px;
+      }
+      .cheap-box{
+        border: 1px solid rgba(218, 205, 205, 0.466);
+        height: 520px;
+        width: 220px;
+      }
+      .button-text-2{
+        position: relative;
+        left: 1px;
+        float: right; 
+        width: 100%;
+    
+      }
+      .button-text-2 a{
+        position: absolute;
+        float: right; 
+        bottom:260px;
+        
+    
+      }
+      .button-text-2 h2{
+        position: absolute;
+        left: 50px;
+        font-size: 50px;
+        top: 40px;
+      }
+      .button-text-2 h2>span{
+        font-size: small;
+        
+      }
+      .button-text-2 h2::after{
+        content: '99';
+        font-size: 12px;
+        position: absolute;
+        float: left;
+         left:50px;
+         font-family: fantasy;
+         font-weight: 400;
+      }
+      .button-text-2 h2::before{
+        content: '$';
+        font-size: 13px;
+        position: absolute;
+        top:32px;
+        left: -8px;
+      }
+      .button-text-2 h3{
+        position: relative;
+        top: 90px;
+        float: left;
+        left: 36px;
+        top: 140px;
+        margin-top: 30px;
+         
+      }
+      
+      .button-text-3{
+        position: relative;
+        left:-11px;
+        float: left; 
+        width: 100%;
+        top: 500px;   
+        
+      }
+      .button-text-3 a{
+        position: absolute;
+        font-size: 12px; 
+        
+    
+      }
+/* cheap price section end */
 
+/* banner-shoping section start */
+   #banner-shop{
+    background-image:url() ;
+    height: 120px;
+   }
+   .logo-2{
+    position: relative;
+    bottom: 5px;
+    margin-left: 170px;
+    
+   }
+   .logo-2 img{
+    position: absolute;
+    height: 120px;
+    float: left;
+   }
+   .logo-2 h3{
+    position: absolute;
+    top: 60px;
+    left: 170px;
+   }
+   .logo-2 h3>i{
+    color: dodgerblue;
+   }
+   .menu-3{
+      position: relative;
+      left:1000px;
+      float: left;
+      width: 9.9%;
+      top: 140px;
+   }
+   .menu-3 li{
+    list-style: none;
+   }
+  .menu-3 a{
+   width: 100%;
+   
+  }
+/* banner-shoping section END */
 
+/* contact link icon section start */
+ #conatact-link{
+    height: 200px;
+    background-color:rgb(56, 56, 56);
+   }
+    .heading{
+        position: relative;
+         left: 600px;
+         top: 20px;
+         float: left;
+    }
+    .heading h2{
+        color: white;
+        font-size: 10px   
+    }
+    .heading h2>i{
+        background-color: black;
+        color:rgb(226, 162, 162);
+        font-size: 20px;
+        padding: 12px 5px;
+    }
+    .conatact {
+         position: relative;
+         top: 120px;
+         left: 370px;
+         float: left;
+    }
+     .container-3 i{
+        font-size: 16px;
+        color: white;
+        padding: 4px 6px;
+        background-color: rgba(0, 0, 0, 0.486);
+        margin: 2px;
+    }
+    .conatact i:hover{
+        background-color:rgb(0, 174, 255) ;
+    } 
 
+/* contact link icon section end  */
 
+/* map banner and login form  start */
+      #map-login{
+        height: 520px;
+     }
+    
+     .login-from input{
+        border: 1px solid rgba(0, 0, 0, 0.336);
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        position:relative;
+     margin-top:10px ;
+        padding: 7px  28px;
+        left: 10px;
+     }
+     .border{
+        position: relative;
+        top: 240px;
+        border: 2px solid rgb(231, 230, 230);
+        height: 240px;
+        width: 247px;
+        left: 120px;
+        background-color:white;
+     }
+     .massage input{
+        padding: 40px 28px;
+     }
+     .massage input::placeholder{
+        position: absolute;
+        top: 10px;
+        left: 27px;
+     }
+   .submit input{
+       padding: 7px 61px;
+       background-color: rgb(16,148, 137);
+       color: white;
+       font-size: 11px;
+     }
 
-
-
+/* map banner and login form END */
+   
+/* footer section start */
+     #footer{
+        background-color: rgb(56,56, 56);
+        height: 100px;
+    }
+    
+    
+    
+    .footer-peragraph{
+      position: relative;        
+        top: 40px;
+        left: 360px;
+        float: left;
+        color: white;
+    }
+    .footer-icon{
+        float: left;
+        position: relative;
+        top: -18px;
+    }
+/* footer section end  */
